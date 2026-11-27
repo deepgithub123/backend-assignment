@@ -9,7 +9,7 @@ import java.util.Map;
 @Configuration
 @ConfigurationProperties(prefix = "app")
 public class AppProperties {
-
+   //Changes
     private String primaryProvider = "provider-a";
     private String canonicalMatchId = "match-1001";
     private Map<String, String> matchMappings = new HashMap<>();
